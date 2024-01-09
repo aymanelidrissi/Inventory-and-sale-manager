@@ -1,0 +1,30 @@
+# General
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store  # for macOS users
+
+# PHP specific
+/vendor/
+
+# PhpStorm specific
+.idea/
+
+# Laragon specific
+/www/
+/tmp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using Node.js in your project)
+/node_modules/
+
+# Other possible directories depending on your setup
+/cache/
+/logs/
+/build/
